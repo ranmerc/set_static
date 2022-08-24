@@ -1,0 +1,16 @@
+.nav {
+  grid-column: span 2;
+  width: 100%;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+@media (min-width: 1200px) {
+  .nav {
+    display: none;
+  }
+}

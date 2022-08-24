@@ -1,0 +1,23 @@
+.link {
+  text-decoration: none;
+  font-family: 'Inter', serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  letter-spacing: 0.03rem;
+  color: var(--clr-3);
+  padding: 0.625rem 0.75rem;
+  border-radius: 5px;
+}
+
+.link[aria-current='page'] {
+  background-color: var(--clr-4);
+}
+
+@media (max-width: 1200px) {
+  .link {
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.125rem;
+  }
+}

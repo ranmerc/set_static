@@ -1,0 +1,11 @@
+.button {
+  background-color: transparent;
+  border: none;
+  justify-self: flex-end;
+}
+
+@media (min-width: 1200px) {
+  .button {
+    display: none;
+  }
+}
