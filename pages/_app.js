@@ -1,6 +1,7 @@
 import Header from '../components/Header/Header';
 import Head from 'next/head';
 import '../styles/globals.css';
+import Footer from '../components/Footer/Footer';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -12,8 +13,11 @@ function MyApp({ Component, pageProps }) {
           type="image/x-icon"
         />
       </Head>
-      <Header />
-      <Component {...pageProps} />
+      <div id="_container">
+        <Header />
+        <Component {...pageProps} />
+        <Footer />
+      </div>
     </>
   );
 }

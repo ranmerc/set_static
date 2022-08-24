@@ -11,4 +11,32 @@
   --clr-2: #1b1b18;
   --clr-3: #483838;
   --clr-4: #90b77d;
+  --clr-5: #faf4e1;
+}
+
+body {
+  background-color: var(--clr-5);
+}
+
+#_container {
+  min-height: 100vh;
+  background-color: var(--clr-5);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+@media (min-width: 1800px) {
+  #_container {
+    width: 1600px;
+    margin: 0 auto;
+  }
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
 }
