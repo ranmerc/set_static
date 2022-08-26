@@ -1,16 +1,11 @@
 .container {
   display: grid;
+  margin-block: 3.75rem;
   row-gap: 2rem;
   column-gap: 3rem;
   justify-content: center;
   align-content: center;
   grid-template-areas: 'heading heading' 'paras icons';
-}
-
-@media (max-width: 1200px) {
-  .container {
-    margin-block: 3.75rem;
-  }
 }
 
 @media (max-width: 1000px) {
