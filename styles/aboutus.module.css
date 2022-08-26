@@ -1,0 +1,59 @@
+.container {
+  display: grid;
+  row-gap: 2rem;
+  column-gap: 3rem;
+  justify-content: center;
+  align-content: center;
+  grid-template-areas: 'heading heading' 'paras icons';
+}
+
+@media (max-width: 1200px) {
+  .container {
+    margin-block: 3.75rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    grid-template-areas: 'heading' 'paras' 'icons';
+  }
+}
+
+.heading {
+  grid-area: heading;
+}
+
+.paraContainer {
+  grid-area: paras;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 150%;
+  color: var(--clr-3);
+}
+
+.paraContainer > p {
+  max-width: 45vw;
+}
+
+@media (max-width: 1000px) {
+  .paraContainer > p {
+    max-width: 80vw;
+  }
+}
+
+.imageContainer {
+  height: fit-content;
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+}
+
+@media (max-width: 1000px) {
+  .imageContainer {
+    justify-content: space-around;
+  }
+}
