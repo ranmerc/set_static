@@ -1,7 +1,7 @@
-import FacebookIcon from './icons/FacebookIcon';
-import InstagramIcon from './icons/InstagramIcon';
-import TwitterIcon from './icons/TwitterIcon';
-import LinkedinIcon from './icons/linkedinIcon';
+import FacebookIcon from '../../icons/FacebookIcon';
+import InstagramIcon from '../../icons/InstagramIcon';
+import TwitterIcon from '../../icons/TwitterIcon';
+import LinkedinIcon from '../../icons/linkedinIcon';
 import Styles from './FollowUs.module.css';
 
 export default function FollowUs() {
