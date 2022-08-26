@@ -23,9 +23,3 @@
     text-align: center;
   }
 }
-
-.list {
-  list-style: none;
-  display: flex;
-  column-gap: 1.5rem;
-}
