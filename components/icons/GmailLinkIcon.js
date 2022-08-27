@@ -19,7 +19,7 @@ export default function GmailLinkIcon() {
   return (
     <LinkIcon
       title="Organon's email"
-      href="analyticsclub@iimrohtak.ac.in"
+      href="mailto:analyticsclub@iimrohtak.ac.in"
       svg={GmailIconSVG}
     />
   );
