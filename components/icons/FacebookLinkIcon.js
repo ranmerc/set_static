@@ -28,7 +28,7 @@ const FacebookIconSVG = (
 export default function FacebookLinkIcon() {
   return (
     <LinkIcon
-      title="Organon's facebook"
+      title="Organon's Facebook"
       href="https://www.facebook.com/Analytics.IIMR/"
       svg={FacebookIconSVG}
     />
