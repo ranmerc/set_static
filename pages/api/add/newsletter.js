@@ -37,7 +37,9 @@ export default async function handler(req, res) {
 
   try {
     const dateObj = new Date();
-    const dateTime = `${dateObj.toLocaleTimeString()} ${dateObj.toLocaleDateString()}`;
+    const dateTime = `${dateObj.toLocaleString('en-in', {
+      timeZone: 'Asia/Kolkata',
+    })}`;
     const data = await appendSheet('newsletter-subscribers!A1:B1', [
       [body.email, dateTime],
     ]);
