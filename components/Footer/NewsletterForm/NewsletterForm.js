@@ -28,17 +28,17 @@ export default function NewsletterForm() {
     });
 
     toast.promise(myPromise, {
-      loading: 'Submitting',
+      loading: 'Subscribing...',
       success: (data) => {
         setDisabled(false);
         if (data.ok) {
-          return 'You are now subscribed';
+          return 'You are now subscribed!';
         } else {
           throw new Error(data.status);
         }
       },
       error: () => {
-        return 'Unable to add, please try again later';
+        return 'Unable to add, please try again later.';
       },
     });
   };
