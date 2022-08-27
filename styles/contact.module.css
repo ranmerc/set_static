@@ -1,0 +1,55 @@
+.mainContainer {
+  margin-block: 3.75rem;
+  display: grid;
+  grid-template-areas: 'heading form' 'icon form';
+  justify-content: space-around;
+  align-content: flex-start;
+}
+
+@media (max-width: 1200px) {
+  .mainContainer {
+    grid-template-areas: 'heading' 'icon' 'form';
+    row-gap: 2rem;
+  }
+}
+
+.headingContainer {
+  grid-area: heading;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.iconContainer {
+  grid-area: icon;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.formContainer {
+  grid-area: form;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.para {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  width: 30vw;
+}
+
+@media (max-width: 1200px) {
+  .para {
+    width: 85vw;
+  }
+}
+
+.subHeading {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--clr-3);
+}
