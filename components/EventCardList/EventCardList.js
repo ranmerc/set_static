@@ -9,8 +9,8 @@ export default function EventCardList({ events }) {
   return (
     <>
       <ol className={Styles.container}>
-        {events.map((event) => (
-          <li key={event.reg_link}>
+        {events.map((event, i) => (
+          <li key={i}>
             <EventCard {...event} />
           </li>
         ))}
