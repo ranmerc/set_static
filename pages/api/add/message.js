@@ -76,8 +76,8 @@ export default async function handler(req, res) {
     return;
   } catch (e) {
     console.log(e.message);
-    res.status(400).json({
-      statusCode: 400,
+    res.status(500).json({
+      statusCode: 500,
       data: e,
     });
     return;
