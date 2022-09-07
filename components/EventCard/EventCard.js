@@ -1,5 +1,4 @@
 import Styles from './EventCard.module.css';
-import Image from 'next/image';
 
 function ifEmpty(value) {
   return value ? value : '-';
@@ -19,12 +18,14 @@ export default function EventCard({
     <>
       <a href={reg_link} className={Styles.container}>
         <div className={Styles.left}>
-          <Image
-            src={poster}
-            width={172}
-            height={194}
-            alt={`${ifEmpty(name)} Event Poster`}
-          />
+          <picture>
+            <img
+              src={poster}
+              width={172}
+              height={194}
+              alt={`${ifEmpty(name)} Event Poster`}
+            />
+          </picture>
           <div>
             <h1 className={Styles.heading}>{ifEmpty(name)}</h1>
             <div className={Styles.location}>{ifEmpty(location)}</div>
