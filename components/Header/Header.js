@@ -4,8 +4,8 @@ import MenuButton from './MenuButton/MenuButton';
 import MobileNavBar from './MobileNavBar/MobileNavBar';
 import DesktopNavBar from './DesktopNavBar/DesktopNavBar';
 import Image from 'next/image';
-import arganonLogoIcon from '../../public/organon_logo_icon.png';
-import arganonLogoText from '../../public/organon_logo_text.png';
+import logoIcon from '../../public/logo.png';
+import logoText from '../../public/title.png';
 import { useRouter } from 'next/router';
 
 export default function Header() {
@@ -29,14 +29,14 @@ export default function Header() {
         <Image
           height={70}
           width={70}
-          src={arganonLogoIcon}
-          alt="Arganon Logo Icon"
+          src={logoIcon}
+          alt="H Society Logo Icon"
         />
         <Image
-          src={arganonLogoText}
+          src={logoText}
           height={70}
           width={250}
-          alt="Arganon Logo Text"
+          alt="H Society Logo Text"
         />
       </div>
 
