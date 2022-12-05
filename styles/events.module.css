@@ -2,7 +2,7 @@
   margin: 3.125rem 1rem;
   color: var(--clr-3);
   display: grid;
-  row-gap: 3.125rem;
+  row-gap: 5rem;
 }
 
 .heading {
