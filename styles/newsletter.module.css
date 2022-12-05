@@ -1,0 +1,7 @@
+.container {
+  margin-block: 3.75rem;
+  margin-inline: 2rem;
+  display: grid;
+  place-content: center;
+  color: var(--clr-3);
+}
