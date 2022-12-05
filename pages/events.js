@@ -7,7 +7,7 @@ export default function Events({ upcomingEvents, pastEvents }) {
   return (
     <>
       <Head>
-        <title>Organon - Events</title>
+        <title>H Society - Events</title>
       </Head>
       <main className={Styles.container}>
         <section className={Styles.subContainer}>

@@ -13,7 +13,7 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Organon - Contact</title>
+        <title>H Society - Contact</title>
       </Head>
       <main className={Styles.mainContainer}>
         <div className={Styles.headingContainer}>
