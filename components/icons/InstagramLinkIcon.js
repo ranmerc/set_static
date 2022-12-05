@@ -28,8 +28,8 @@ const InstagramIconSVG = (
 export default function InstagramLinkIcon() {
   return (
     <LinkIcon
-      title="Organon's Instagram"
-      href="https://instagram.com/analyticsclub_iimr"
+      title="H Society's Instagram"
+      href="https://instagram.com/"
       svg={InstagramIconSVG}
     />
   );

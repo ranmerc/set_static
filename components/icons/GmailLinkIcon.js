@@ -17,10 +17,6 @@ const GmailIconSVG = (
 
 export default function GmailLinkIcon() {
   return (
-    <LinkIcon
-      title="Organon's email"
-      href="mailto:analyticsclub@iimrohtak.ac.in"
-      svg={GmailIconSVG}
-    />
+    <LinkIcon title="H Society's email" href="mailto:" svg={GmailIconSVG} />
   );
 }

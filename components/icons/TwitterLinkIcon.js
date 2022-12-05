@@ -26,8 +26,8 @@ const TwitterIconSVG = (
 export default function TwitterLinkIcon() {
   return (
     <LinkIcon
-      title="Organon's Twitter"
-      href="https://twitter.com/Analytics_IIMR"
+      title="H Society's Twitter"
+      href="https://twitter.com/"
       svg={TwitterIconSVG}
     />
   );

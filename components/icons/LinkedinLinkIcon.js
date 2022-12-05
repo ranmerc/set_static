@@ -28,8 +28,8 @@ const LinkedinIconSVG = (
 export default function LinkedinLinkIcon() {
   return (
     <LinkIcon
-      title="Organon's Linkedin"
-      href="https://www.linkedin.com/in/organon-the-analytics-club-of-iim-rohtak-347039154"
+      title="H Society's Linkedin"
+      href="https://www.linkedin.com/in/"
       svg={LinkedinIconSVG}
     />
   );
