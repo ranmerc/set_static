@@ -30,11 +30,7 @@ const eventMap = (event) => {
     time: event[2] ?? '',
     location: event[3] ?? '',
     prize: event[4] ?? '',
-    poster: event[5]
-      ? `https://drive.google.com/uc?export=view&id=${
-          event[5].match(/file\/d\/(.*)\/view/)?.[1]
-        }`
-      : '/404.jpg',
+    poster: event[5] ? event[5] : '/404.jpg',
     status: event[6],
     reg_link: event?.[7] ? event?.[7] : '#',
     mode: event?.[8] ?? 'Online',
