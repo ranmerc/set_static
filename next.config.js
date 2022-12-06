@@ -1,16 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    images: {
+      unoptimized: true,
+    },
+  },
+  trailingSlash: true,
   reactStrictMode: true,
   swcMinify: true,
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: '/events',
-        permanent: true,
-      },
-    ];
-  },
 };
 
 module.exports = nextConfig;
